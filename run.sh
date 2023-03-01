@@ -9,7 +9,12 @@
 file=$1
 log="${2:-log.txt}"
 cppdir="${file}_cpp"
+randstr1="aasdfasdf"
+randstr2="ieonnhejnho"
+
 > $log  # clear the log file
+
+
 
 
 echo "Step-1: compiling the Circuit" >> $log
@@ -36,12 +41,13 @@ echo "Elapsed Time for Step-3: $((($end - $start)/1000000)) ms"  >> $log
 
 echo "Step-3.1: powers of tau (Not timed as it requires input)" >> $log
 snarkjs powersoftau new bn128 12 pot12_0000.ptau -v
-snarkjs powersoftau contribute pot12_0000.ptau pot12_0001.ptau --name="First contribution" -v
+# snarkjs powersoftau new bn128 20 pot12_0000.ptau -v
+snarkjs powersoftau contribute pot12_0000.ptau pot12_0001.ptau --name="First contribution" -v  -e=$randstr1
 
 echo "Step-3.2: phase 2 (Not timed as it requires input)" >> $log
 snarkjs powersoftau prepare phase2 pot12_0001.ptau pot12_final.ptau -v
-snarkjs groth16 setup $file.r1cs pot12_final.ptau Dense_0000.zkey
-snarkjs zkey contribute "${file}_0000".zkey "${file}_0001".zkey --name="1st Contributor Name" -v
+snarkjs groth16 setup $file.r1cs pot12_final.ptau "${file}_0000".zkey
+snarkjs zkey contribute "${file}_0000".zkey "${file}_0001".zkey --name="1st Contributor Name" -v -e=$randstr2
 snarkjs zkey export verificationkey "${file}_0001".zkey verification_key.json
 
 echo "Step-4: Generating a proof" >> $log
