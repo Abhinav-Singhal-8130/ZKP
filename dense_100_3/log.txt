@@ -1,3 +1,0 @@
-Step-1: compiling the Circuit
-Elapsed Time for Step-1: 223 ms
-Step-2: Make
