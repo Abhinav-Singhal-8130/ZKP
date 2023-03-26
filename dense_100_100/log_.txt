@@ -1,4 +1,0 @@
-Step-6: Generating a proof
-Elapsed Time for Step-6: 2385 ms
-Step-7: Verify the proof
-Elapsed Time for Step-7: 1092 ms
