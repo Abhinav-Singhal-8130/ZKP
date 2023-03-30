@@ -15,3 +15,60 @@ Step-6: Generating a proof
 Elapsed Time for Step-6: 146 ms
 Step-7: Verify the proof
 Elapsed Time for Step-7: 147 ms
+Step-2: Make
+Elapsed Time for Step-2: 10 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 2 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 10 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 2 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 10 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 1 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 5 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 1 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 5 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 2 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 4 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 3 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 4 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 2 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 7 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 12 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 4 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 1 ms
+Step-4: powers of tau
+Step-2: Make
+Elapsed Time for Step-2: 4 ms
+Step-3: Execute binary which takes input.json and creates witness file
+Elapsed Time for Step-3: 1 ms
+Step-4: powers of tau
+Elapsed Time for Step-4: 11443 ms
+Step-5: phase 2
+Elapsed Time for Step-5: 27456 ms
+Step-6: Generating a proof
+Elapsed Time for Step-6: 562 ms
+Step-7: Verify the proof
+Elapsed Time for Step-7: 522 ms
